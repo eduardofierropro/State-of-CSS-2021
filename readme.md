@@ -10,17 +10,80 @@ Nos permite hacer rejillas dentro de una etiqueta
 * [Enlace a CanIUse](https://caniuse.com/?search=grid)
 
 ### Subgrid
+Es un valor que nos permite es "heredar" el número de columnas y rows de una etiqueta contenedora.
+* [Oficial Level 2](https://www.w3.org/TR/css-grid-2/#subgrids)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid)
+* [Enlace a CanIUse](https://caniuse.com/?search=subgrid)
 
 ### Flexbox
+Es una forma de maquetación que nos permite organizar elementos en columnas y filas.
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-flexbox-1/)
+* [Mozilla Developer](https://www.w3schools.com/css/css3_flexbox.asp)
+* [Enlace a W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
+* [Enlace a CanIUse](https://caniuse.com/flexbox)
+
 ### Multi-column
+Es una forma de maquetación que nos permite organizar elementos hijos en columnas dentro de una contenedora.
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-multicol-1/)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts)
+* [Enlace a W3Schools](https://www.w3schools.com/cssref/css3_pr_column-count.asp)
+* [Enlace a CanIUse](https://caniuse.com/?search=column-count)
+
 ### Modos de escritura en CSS
+Nos permiten cambiar la orientación de todo nuestro contenido web, en base a las formas de escritura "de mano".
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-writing-modes-3/)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/writing-mode)
+* [Enlace a W3Schools](https://www.w3schools.com/cssref/css3_pr_writing-mode.asp)
+* [🚨Enlace a CanIUse](https://caniuse.com/?search=writing-mode)
+
 ### position:sticky
-### Propiedades Lógicas (margin-block-start)padding-inline-end, 
+Es un position que nos permite es hacer que una etiqueta sea relative al inicio y fixed cuando toca un borde de la ventana.
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-position-3/#sticky-positioning)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/position)
+* [Enlace a W3Schools](https://www.w3schools.com/howto/howto_css_sticky_element.asp)
+* [🚨Enlace a CanIUse](https://caniuse.com/?search=sticky)
+
+### Propiedades Lógicas: margin-block-start, padding-inline-end
+Nos permiten es "simplificar" el uso de propiedades de box-model (propiedades físicas) en base al writting-mode; es decir, con "propiedades lógicas".
+
+* [Enlace oficial a W3C](https://drafts.csswg.org/css-logical/)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Logical_Properties)
+* [Enlace a CanIUse](https://caniuse.com/?search=logical)
+* [Enlace a CSS Tricks](https://css-tricks.com/css-logical-properties-and-values/)
+
 ### Aspect-ratio
+
+Nos permite especificar el ratio de un elemento sin darle un tamaño previo. Se usa en conjunto a object-fit: cover.
+
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-sizing-4/#aspect-ratio)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+* [Enlace a Web.dev](https://web.dev/aspect-ratio/)
+* [Enlace a Can I Use](https://caniuse.com/?search=aspect-ratio)
+
 ### Content-visibility
+
+Mejora el rendimiento, haciendo que una etiqueta que no se encuentre en el viewport (no se vea) NO se renderize, mejorando así la carga de la web.
+
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-contain-2/#content-visibility)
+* [Enlace a Can I Use](https://caniuse.com/?search=content-visi)
+
+
 ### Gap for Flexbox
+Nos permite evitar usar "margin"
+
+* [Enlace oficial a W3C](https://www.w3.org/TR/css-align-3/#gaps)
+* [Enlace a Can I Use](https://caniuse.com/flexbox-gap)
+
 ### Break Rules
+
+* [🚨Enlace oficial a W3C](https://www.w3.org/TR/css-text-4/)
+
 ### Container Queries
+
+Es una regla de CSS3 que nos permite aplicar técnicas "responsive" a una etiqueta hija en base al tamaño de su contenedora.
+
+* [Enlace oficial a W3C](https://drafts.csswg.org/css-contain-3/)
+* [Enlace a Can I Use](https://caniuse.com/?search=%40container)
 
 ## Formas y gráficos
 ### Shapes
@@ -143,3 +206,22 @@ Nos permite hacer rejillas dentro de una etiqueta
 #### CSS { In Real Life }
 #### Modern CSS Solutions
 #### Medium
+
+
+## Autor ✒️
+**Eduardo Fierro** - *Documentación y trabajo inicial*
+* [Youtube](https://youtube.com/EduardoFierroPro?sub_confirmation=1)
+* [Twitch](https://twitch.tv/eduardofierropro)
+* [TikTok](https://www.tiktok.com/@eduardofierro.pro?)
+* [Github](https://github.com/eduardofierropro)
+* [Instagram](https://instagram.com/eduardofierro.pro)
+* [Twitter](https://twitter.com/edfierropro)
+
+## Master/Cursos donde sor profesor 📚
+Soy profesor en la Escuela Trazos donde impartimos Cursos y Másters sobre desarrollo web con una bolsa de trabajo con Alta Empleabilidad. ¡Píde información sobre los cursos donde soy profesor desde este enlace!
+
+👉[https://trazos.net/contacto-eduardofierro](https://trazos.net/contacto-eduardofierro)
+
+## Licencia 📄
+MIT Public License v3.0
+No puede usarse comencialmente.

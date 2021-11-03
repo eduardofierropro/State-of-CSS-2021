@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+}
+
+.fisico{
+    width:80%;
+    height:10em;
+    background:lightblue;
+    margin:2em auto;
+    border-top: 1em solid black;
+    border-bottom: 1em solid black;
+    border-left: 1em solid blue;
+    border-right: 1em solid blue;
+}
+.logico{
+    inline-size: 80%;
+    block-size: 10em;
+    background: red;
+    border-block: 1em solid black;
+    border-inline: 1em solid blue;
+    margin-block:2em;
+    margin-inline: auto;
+}

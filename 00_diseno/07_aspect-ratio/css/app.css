@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grogu {
+  width: 50%;
+  aspect-ratio: 3/5;
+  margin: 2em auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

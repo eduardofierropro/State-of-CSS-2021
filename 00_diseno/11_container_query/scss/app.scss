@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+
+.contenedor{
+    width:80%;
+    min-height:50vh;
+    background:lightblue;
+    margin:2em auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:5em;
+    container: inline-size / hola;
+}
+.item{
+    width: 100%;
+    height:20vh;
+    background:orange;
+}
+
+@container hola (max-width:600px){
+    .item{
+        background:lime;
+    }
+}
