@@ -1,5 +1,20 @@
-# State of CSS
-Es una encuesta que se realiza cada año a diferentes desarrolladores y nos permite saber si están satisfechos con el estado actual de CSS.
+# ¿Qué hay en este repo?
+Este repo está hecho en directo desde el canal de [Twitch de Eduardo Fierro Pro](https://twitch.tv/eduardofierropro) y estará resubido en 3 partes en mi canal de [Youtube](https://youtube.com/EduardoFierroPro?sub_confirmation=1)
+
+Lo que hacemos en este repo es revisar y repasar la documentación oficial con pequeños ejemplos reales las próximas novedades de CSS que se ven en la encuesta de State of CSS 2021.
+
+***Te agradecería que si usas este repo para mostrarlo en tu canal de Youtube o Streaming en Twitch me menciones porque es muy... ¡De frontends!🥰***
+
+# ¿Qué es State of CSS?
+Es una encuesta que se realiza cada año a diferentes desarrolladores (tú también puedes hacerla desde su web) y nos permite saber nuestros conocimientos como developers.
+
+En este archivo tienes los diferentes enlaces más "oficiales" sobre cada una de las estas propiedades.
+
+# 🚨 **¡No te preocupes!** 🚨
+La gran mayoría de estas propiedades no se usarán hasta dentro de unos años.
+Todas pasan por un proceso de validación de la W3C.
+
+Si no sabes lo que es la W3C, entonces [mira este vídeo](https://www.youtube.com/watch?v=3dDr6hax31w).
 
 ## Diseño
 ### CSS Grid
