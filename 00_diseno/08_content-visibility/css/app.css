@@ -6,7 +6,27 @@
           box-sizing: border-box;
 }
 
-.contenedora {
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 2em auto;
+  border-radius: 1em;
+  border: 5px solid lightgrey;
+  padding: 1em;
+  padding: 1em;
+}
+
+.item, .subitem {
+  border-radius: 1em;
+  border: 5px solid #282828;
+  padding: 1em;
+}
+
+.contenedor {
   width: 90%;
   min-height: 80vh;
   background: lightblue;

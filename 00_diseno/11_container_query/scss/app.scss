@@ -4,13 +4,35 @@
     border:0;
     box-sizing: border-box;
 }
+// Estilos para los elementos (no es esencial)
 
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width:90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    border:5px solid lightgrey;
+    padding:1em;
+    padding:1em;
+}
+.item , .subitem{
+    border-radius: 1em;
+    border:5px solid #282828;
+    padding:1em;
+}
+
+
+
+
+// Estilos de la carácterística de State of CSS
 
 
 .contenedor{
     width:80%;
     min-height:50vh;
-    background:lightblue;
     margin:2em auto;
 
     display: flex;
@@ -21,9 +43,10 @@
     container: inline-size / hola;
 }
 .item{
-    width: 100%;
+    width: 80%;
     height:20vh;
     background:orange;
+    margin: auto;
 }
 
 @container hola (max-width:600px){

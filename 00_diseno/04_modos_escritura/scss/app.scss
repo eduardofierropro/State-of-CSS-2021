@@ -4,18 +4,38 @@
     border:0;
     box-sizing: border-box;
 }
+// Estilos para los elementos (no es esencial)
 
 body{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width:90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    border:5px solid lightgrey;
+    padding:1em;
+    padding:1em;
+}
+.item , .subitem{
+    border-radius: 1em;
+    border:5px solid #282828;
+    padding:1em;
+}
+
+
+
+
+// Estilos de la carácterística de State of CSS
+body{
     writing-mode: vertical-rl;
+    padding:2em;
 }
 
 .contenedor{
     width:80%;
     min-height:50vh;
-    background:lightblue;
     margin:2em auto;
     column-count: 4;
-}
-.item{
-    background:orange;
 }

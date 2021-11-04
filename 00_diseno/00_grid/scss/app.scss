@@ -4,29 +4,38 @@
     border:0;
     box-sizing: border-box;
 }
+// Estilos para los elementos (no es esencial)
 
-// .contenedor{
-//     width:90%;
-//     margin: 2em auto;
-//     border-radius: 1em;
-//     border:5px solid lightgrey;
-//     padding:1em;
-//     padding:1em;
-// }
-// .item{
-//     border-radius: 1em;
-//     border:5px solid #282828;
-//     padding:1em;
-// }
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width:90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    border:5px solid lightgrey;
+    padding:1em;
+    padding:1em;
+}
+.item{
+    border-radius: 1em;
+    border:5px solid #282828;
+    padding:1em;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 
-
+// Estilos de la carácterística de State of CSS
 .contenedor{
     width:80%;
     min-height:50vh;
-    background:lightblue;
+    // background:lightblue;
     margin:2em auto;
 
     display:grid;
@@ -35,5 +44,5 @@
     gap:1em;
 }
 .item{
-    background:orange;
+    // background:orange;
 }
