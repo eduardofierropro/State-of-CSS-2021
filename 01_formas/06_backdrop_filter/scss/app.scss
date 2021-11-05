@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+// Estilos para los elementos (no es esencial)
+
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width:90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    border:5px solid lightgrey;
+    padding:1em;
+    padding:1em;
+}
+.item{
+    border-radius: 1em;
+    border:5px solid #282828;
+    padding:1em;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+// Estilos de la carácterística de State of CSS
+.header{
+    width:100%;
+    background:rgba(0,0,255,.6);
+    padding:1em 0;
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(15px);
+
+    &__ul{
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__li{
+        margin: 0 1em;
+        list-style: none;
+    }
+    &__a{
+        color:white;
+        text-decoration: none;
+    }
+
+}
+
+.main{
+    width:90%;
+    margin: 2em auto;
+    
+    &__img{
+        display:block;
+        width:100%;
+    }
+    
+}

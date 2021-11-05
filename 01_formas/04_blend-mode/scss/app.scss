@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+// Estilos para los elementos (no es esencial)
+
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width:90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    border:5px solid lightgrey;
+    padding:1em;
+    padding:1em;
+}
+.item{
+    border-radius: 1em;
+    border:5px solid #282828;
+    padding:1em;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+// Estilos de la carácterística de State of CSS
+body{
+    background: url(../assets/espacio.jpg) no-repeat center center / cover fixed;
+    
+}
+
+
+/* 
+    Usamos blend-mode 2 formas de aplicarlo 
+        👉 Aplicar directamente a una etiqueta en cuyo caso cuidado con la compatiblidad. (mix-blend-mode)
+        👉 Se puede aplicar a unos backgrounds
+*/
+
+.imagen{
+    width:60%;
+    height:20em;
+    background: url(../assets/baby.png) no-repeat center center / auto 100% scroll;
+    margin:1em auto;
+    mix-blend-mode: hard-light;
+}
+.imagen2{
+    width:100%;
+    min-height:80vh;
+    background: 
+        url(../assets/baby.png) no-repeat center center / 50% auto scroll,
+        url(../assets/espacio.jpg) no-repeat center center / cover scroll;
+ 
+    background-blend-mode: hard-light;
+}

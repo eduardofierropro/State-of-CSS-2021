@@ -101,18 +101,84 @@ Es una regla de CSS3 que nos permite aplicar técnicas "responsive" a una etique
 * [Enlace a Can I Use](https://caniuse.com/?search=%40container)
 
 ## Formas y gráficos
+
 ### Shapes
+
+Nos permiten que el texto se adapte a la forma del elemento, en base a la propiedad "shape-outside".
+
+* [Documentación W3C](https://drafts.csswg.org/css-shapes-2/)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside)
+* [Enlace a CanIUse](https://caniuse.com/?search=shape)
+
+
 ### object-fit
+
+Nos permite configurar el tamaño de la imagen dentro de una ```<img>``` y lo podemos combinar con la propiedad ```object-position```.
+
+* [Documentación W3C](https://www.w3.org/TR/css-images-3/)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/object-fit)
+* [Enlace a CanIUse](https://caniuse.com/?search=object-fit)
+* [Ejemplo](https://bennettfeely.com/clippy/)
+
 ### clip-path
+
+Nos permite generar formas (que pueden usarse como máscara) para etiquetas.
+
+* [Documentación W3C](https://www.w3.org/TR/css-masking-1/#the-clip-path)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
+* [Enlace a CanIUse](https://caniuse.com/?search=clip-path)
+
 ### CSS Masks
+
+* [Documentación W3C](https://www.w3.org/TR/css-masking-1/)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
+* [Enlace a CanIUse](https://caniuse.com/?search=mask)
+* [Enlace a CSS Tricks](https://css-tricks.com/almanac/properties/m/mask-image/)
+
 ### Blend Modes
+
+Son efectos para colocar en etiquetas o imágenes basadas en los efectos de capa de Photoshop. Y existen dos tipos, los ```mix-blend-mode``` y los ```blend-mode```.
+
+* [Documentación W3C](https://www.w3.org/TR/compositing-1/#propdef-background-blend-mode)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/mix-blend-mode)
+* [Enlace a CanIUse](https://caniuse.com/?search=blend-mode)
+
 ### CSS Filter Effects
+
+Nos permite aplicar efectos de filtro a una imagen. Efectos como blur, grayscale, saturate, etc.
+
+* [Documentación W3C](https://www.w3.org/TR/filter-effects-1/)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/filter)
+* [Enlace a CanIUse](https://caniuse.com/?search=filter)
+* [Generador online](https://www.cssfiltergenerator.com/)
+
 ### backdrop-filter
+
+```backdrop-filter``` Nos permite aplicar un efecto de desenfoque al fondo de una imagen y se combina con un background en rgba().
+
+* [Documentación W3C](https://drafts.fxtf.org/filter-effects-2/#BackdropFilterProperty)
+* [Enlace a CanIUse](https://caniuse.com/?search=backdrop)
+
 ### color-gamut
+
+Es una regla usada para configurar los colores segun el perfil de pantalla.
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/color-gamut)
+* [Enlace a CanIUse](https://caniuse.com/?search=color-gamut)
+
 ### perspective
+
+Nos permite configurar el punto de fuga al hacer transformaciones.
+
+* [Documentación W3C](https://drafts.csswg.org/css-transforms/#perspective)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/perspective)
+* [Enlace a CanIUse](https://caniuse.com/?search=perspective)
+
+softwa//()
 ### Intrinsic Sizing
 ### conic-gradient
 ### color()
+<!-- https://www.w3.org/TR/css-color-3/ -->
 ### accent-color
 
 ## Interacciones
@@ -240,3 +306,12 @@ Soy profesor en la Escuela Trazos donde impartimos Cursos y Másters sobre desar
 ## Licencia 📄
 MIT Public License v3.0
 No puede usarse comencialmente.
+
+
+
+
+* [Documentación W3C]()
+* [Mozilla Developer]()
+* [Enlace a Web.dev]()
+* [Enlace a W3Schools]()
+* [Enlace a CanIUse]()
