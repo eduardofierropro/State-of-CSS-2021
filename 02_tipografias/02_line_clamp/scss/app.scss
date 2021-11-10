@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+// Estilos para los elementos (no es esencial)
+
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+
+}
+
+
+.p{
+    width:80%;
+    margin: 2em auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

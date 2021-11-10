@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 2em auto;
+  border-radius: 1em;
+  border: 5px solid lightgrey;
+  padding: 1em;
+  padding: 1em;
+}
+
+.item {
+  border-radius: 1em;
+  border: 5px solid #282828;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* 
+    Estilos de la carácterística de State of CSS    
+*/
+.etiqueta {
+  width: 20em;
+  min-height: 20em;
+  background: conic-gradient(purple, lightgreen);
+  background: conic-gradient(from 245deg at 50% 50%, purple, lightgreen);
+}

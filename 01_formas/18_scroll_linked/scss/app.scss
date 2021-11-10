@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height:400vh;
+}
+
+
+.etiqueta{
+    width:5em;
+    height:5em;
+    background-color: red;
+    
+    position:fixed;
+    top:calc( 50% - 2.5em );
+    left:calc( 50% - 2.5em );
+
+
+    animation: desplazar 1s ease both;
+    animation-timeline:nombre-scroll;
+
+}
+
+@keyframes desplazar{
+    from{
+        background:lime;
+    }
+    to{
+        background:black;
+    }
+}
+
+@scroll-timeline nombre-scroll{
+    source:auto;
+    orientation: vertical;
+    scroll-offsets: 0% , 10vh;
+}

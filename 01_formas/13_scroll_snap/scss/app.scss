@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+
+
+ /* A la etiqueta contenedora le ponemos:
+        · El eje
+        · Si es con la dirección del ratón o por proximidad
+    */
+html{
+   
+    scroll-snap-type: y proximity;
+}
+
+/* .contenedora{
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    height: 100vh;
+} */
+
+.item{
+    width:100%;
+    min-height:100vh;
+    background-color: lightblue;
+    scroll-snap-align: start ;
+    margin: 1em 0;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3em;
+}

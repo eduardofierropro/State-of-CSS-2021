@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.contenedora{
+    width:80%;
+    height: 200vh;
+    margin: auto;
+    overflow-x:hidden;
+    overscroll-behavior: none;    
+    // Si hacemos scroll en esta etiqueta, no afecta al scroll de la página
+}
+
+.item{
+    width:100%;
+    min-height:100vh;
+    background-color: lightblue;
+ 
+    margin: 1em 0;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3em;
+}

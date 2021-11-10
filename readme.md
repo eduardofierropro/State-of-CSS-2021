@@ -174,31 +174,146 @@ Nos permite configurar el punto de fuga al hacer transformaciones.
 * [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/perspective)
 * [Enlace a CanIUse](https://caniuse.com/?search=perspective)
 
-softwa//()
 ### Intrinsic Sizing
+
+Valores que podemos usar en las propiedades como width, height... y que no se centran en la etiqueta sino en su contenido.
+
+* [Documentación W3C](https://www.w3.org/TR/css-sizing-3/#intrinsic-sizes)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Glossary/Intrinsic_Size)
+* [Enlace a CanIUse](https://caniuse.com/?search=intri)
+
 ### conic-gradient
+
+Son degradados de ángulo conocidos como conic gradients.
+
+* [Documentación W3C](https://www.w3.org/TR/css-images-4/#conic-gradients)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient())
+* [Enlace a CanIUse](https://caniuse.com/?search=conic-gradients)
+* [Generator](https://learnui.design/tools/gradient-generator.html)
+
 ### color()
-<!-- https://www.w3.org/TR/css-color-3/ -->
+
+Es una función que nos permite configurar un color para un perfil de pantalla personalizado.
+
+* [Documentación W3C](https://drafts.csswg.org/css-color/#color-function)
+* [Enlace a CanIUse](https://caniuse.com/css-color-function#:~:text=The%20CSS%20color()%20function,the%20default%20sRGB%20color%20space.)
+
+
 ### accent-color
+
+Nos permite cambiar el color por defecto de ciertos elementos en HTML como radius o checkboxes.
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
+* [Enlace a CanIUse](https://caniuse.com/?search=accent)
 
 ## Interacciones
 ### CSS Scroll Snap
+
+Nos permite que cuando deslizemos / scroll en la página los elementos se centren sólo con CSS. Sustituto de Javascript.
+
+* [Documentación W3C](https://www.w3.org/TR/css-scroll-snap-1/)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap)
+* [Enlace a CSS Tricks](https://css-tricks.com/practical-css-scroll-snapping/)
+* [Enlace a CanIUse](https://caniuse.com/?search=snap)
+
 ### overscroll-behavior
+
+Cuando hacemos scroll en una etiqueta con overflow-x / overlow-y en hidden, la rueda del ratón no afecta al scroll de una contenedora o la página.
+
+* [Documentación W3C](https://drafts.csswg.org/css-overscroll-1/)
+* [Enlace a CanIUse](https://caniuse.com/?search=overscroll)
+
 ### overflow-anchor
+
+🚨 Esta propiedad está activada por defecto en los navegadores que lo soportan. *(No hay ejemplo de esta propiedad)*
+
+En el caso de que añadamos contenido mediante Javascript a una <contenedora> con overflow-anchor el contenido se centra en lo que estábamos viendo: aunque cambie la altura de la <contenedora>.
+
+* [Documentación W3C](https://drafts.csswg.org/css-scroll-anchoring/)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-anchor)
+* [Enlace a CanIUse](https://caniuse.com/?search=overflow-anchor)
+
 ### touch-action
+
+Nos permite configurar qué eventos de "pantalla" podemos usar con un elemento, es decir si podemos hacer scroll, pinch, etc.
+
+🚨 A nivel de Accesibilidad es recomendable no usar ```touch-action: none```.
+
+* [Documentación W3C](https://www.w3.org/TR/pointerevents/#the-touch-action-css-property)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action)
+* [Enlace a CanIUse](https://caniuse.com/?search=touch-action)
+
 ### pointer-events
+
+Nos sirve para desactiva o activar los punteros de ratón en un elemento mediante CSS.
+
+* [Documentación W3C](https://wiki.csswg.org/spec/css4-ui#pointer-events)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
+* [Enlace a CanIUse](https://caniuse.com/?search=pointer-events)
+
 ### scroll-timeline
 
+Nos permite hacer efectos de Parallax en Scroll con CSS.
 
+* [Documentación W3C](https://drafts.csswg.org/scroll-animations-1/)
+* [Guía de CSS Tricks](https://css-tricks.com/practical-use-cases-for-scroll-linked-animations-in-css-with-scroll-timelines/)
+* [Enlace a CanIUse](https://caniuse.com/css-scroll-timeline)
+* [Vídeo en Youtube](https://www.youtube.com/watch?v=jpzG_WV6DBg)
 
 ## Tipografías
 ### font-variant-*
+
+Nos permiten configurar cómo las ligaduras opciones de configuración de los textos.
+
+* [Documentación W3C](https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-alternates)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
+* [Enlace a CanIUse](https://caniuse.com/?search=font-variant)
+
 ### initial-letter
+
+Establece el nº de líneas que ocupa la primera letra.
+
+🚨 No parece que funcione ni en Safari.
+
+* [Documentación W3C](https://www.w3.org/TR/css-inline/#initial-letter-styling)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/initial-letter)
+* [Enlace a CanIUse](https://caniuse.com/?search=initial-letter)
+
+
 ### font-variant-numeric
+
+Nos permite configurar los glifos, fracciones... de una tipografía.
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric)
+
 ### font-display
+
+Nos sirve para confirgurar la forma de cargar la fuente.
+
+* [Documentación W3C](https://www.w3.org/TR/css-fonts-4/#font-display-desc)
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/@font-face/font-display)
+* [Enlace a CanIUse](https://developer.mozilla.org/es/docs/Web/CSS/@font-face/font-display)
+
 ### line-clamp
+
+Nos permite definir por un lado el número de líneas que se pueden mostrar en un elemento. Y el símbolo de los ```...``` al final de esas líneas. Como un "Read More".
+
+* [Documentación W3C](https://drafts.csswg.org/css-overflow-3/#propdef--webkit-line-clamp)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp)
+* [Enlace a CanIUse](https://caniuse.com/?search=line-clamp)
+* [Enlace a CSS Tricks](https://css-tricks.com/almanac/properties/l/line-clamp/)
+
+
 ### Variable Fonts
 
+Son propiedades para una tipografía editable que se añaden dentro del @media.
+
+En vez de enlazar 20 tipografías podemos definir múltiples valores para una misma tipografía y ahorrar carga.
+
+
+* [Documentación W3C](https://drafts.csswg.org/css-fonts-4/#font-variation-settings-def)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
+* [Enlace a CanIUse](https://caniuse.com/?search=variable-font)
 
 ## Accesibility
 ### prefers-reduced-motion

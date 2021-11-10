@@ -1,0 +1,17 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  pointer-events: none;
+}
+
+/* a{
+    // Activamos los eventos del ratón
+    pointer-events: auto;
+} */

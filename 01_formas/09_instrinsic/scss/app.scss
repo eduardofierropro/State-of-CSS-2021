@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+// Estilos para los elementos (no es esencial)
+body{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.contenedor{
+    width:90%;
+    margin: 2em auto;
+    border-radius: 1em;
+    border:5px solid lightgrey;
+    padding:1em;
+    padding:1em;
+}
+.item{
+    border-radius: 1em;
+    border:5px solid #282828;
+    padding:1em;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* 
+    Estilos de la carácterística de State of CSS 
+    
+    min-content: La caja se ajusta al tamaño de la palabra más larga
+    max-content: La caja se ajusta al tamaño del texto completo
+*/
+.etiqueta{
+    width:min-content;
+    background:orange;
+    margin:1em;
+}
+.etiquetaMax{
+    width:max-content;
+    background:lightblue;
+    margin:1em;
+}
