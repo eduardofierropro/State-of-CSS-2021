@@ -18,8 +18,13 @@ Si no sabes lo que es la W3C, entonces [mira este vídeo](https://www.youtube.co
 
 ## Leyenda
 
-* 🧪 Experimental: Esta propiedad es experimental y la definición que escribo en este repo puede cambiar en el futuro.
-* 🤷‍♂️ No he encontrado información: No he encontrado información sobre esta propiedad ni en documentos oficiales ni en "tutoriales". Si alguien encuentra o sabe del tema que nos avise por discord o aquí en Github.
+En ciertas propiedades CSS hemos añadido una leyenda cuyos iconos significan:
+
+* 🚨 He encontrado algo de info pero estoy seguro de ese enlace en concreto.
+
+* 🧪 Esta propiedad es experimental y la definición que escribo en este repo puede cambiar en el futuro.
+
+* 🤷‍♂️ No he encontrado información sobre esta propiedad ni en documentos oficiales ni en "tutoriales". Si alguien encuentra o sabe del tema que nos avise por discord o aquí en Github.
 
 ## Diseño
 ### CSS Grid
@@ -54,14 +59,14 @@ Nos permiten cambiar la orientación de todo nuestro contenido web, en base a la
 * [Enlace oficial a W3C](https://www.w3.org/TR/css-writing-modes-3/)
 * [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/writing-mode)
 * [Enlace a W3Schools](https://www.w3schools.com/cssref/css3_pr_writing-mode.asp)
-* [🚨Enlace a CanIUse](https://caniuse.com/?search=writing-mode)
+* [🚨 Enlace a CanIUse](https://caniuse.com/?search=writing-mode)
 
 ### position:sticky
 Es un position que nos permite es hacer que una etiqueta sea relative al inicio y fixed cuando toca un borde de la ventana.
 * [Enlace oficial a W3C](https://www.w3.org/TR/css-position-3/#sticky-positioning)
 * [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/position)
 * [Enlace a W3Schools](https://www.w3schools.com/howto/howto_css_sticky_element.asp)
-* [🚨Enlace a CanIUse](https://caniuse.com/?search=sticky)
+* [🚨 Enlace a CanIUse](https://caniuse.com/?search=sticky)
 
 ### Propiedades Lógicas: margin-block-start, padding-inline-end
 Nos permiten es "simplificar" el uso de propiedades de box-model (propiedades físicas) en base al writting-mode; es decir, con "propiedades lógicas".
@@ -96,7 +101,7 @@ Nos permite evitar usar "margin"
 
 ### Break Rules
 
-* [🚨Enlace oficial a W3C](https://www.w3.org/TR/css-text-4/)
+* [🚨 Enlace oficial a W3C](https://www.w3.org/TR/css-text-4/)
 
 ### Container Queries
 
@@ -471,12 +476,3 @@ Soy profesor en la Escuela Trazos donde impartimos Cursos y Másters sobre desar
 ## Licencia 📄
 MIT Public License v3.0
 No puede usarse comencialmente.
-
-
-
-
-* [Documentación W3C]()
-* [Mozilla Developer]()
-* [Enlace a Web.dev]()
-* [Enlace a W3Schools]()
-* [Enlace a CanIUse]()
