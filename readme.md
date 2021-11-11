@@ -383,14 +383,40 @@ Atributos usados para la accesibilidad de una web y son atributos que se colocan
 
 ## Otras características
 ### Variables (Propiedades Custom)
+
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/--*)
+* [Can I Use](https://caniuse.com/?search=custom%20pro)
+
 ### Comprobando Características Soportadas (@supports)
+
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/@supports)
+* [Can I Use](https://caniuse.com/?search=%40supports)
+
 ### CSS Containment
+
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Containment)
+
+
 ### will-change
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
+
 ### calc()
-### Houdini
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/calc())
+* [Can I Use](https://caniuse.com/?search=calc)
+
+### Houdini / Houdini Custom Properties
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Houdini)
+
 ### Funciones de Comparación
-### Houdini Custom Properties
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions)
+
 ### ::marker
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)
+
 
 ## Pre-/Post-procesadores
 ### Sass
