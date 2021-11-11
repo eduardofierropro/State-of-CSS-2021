@@ -16,6 +16,11 @@ Todas pasan por un proceso de validación de la W3C.
 
 Si no sabes lo que es la W3C, entonces [mira este vídeo](https://www.youtube.com/watch?v=3dDr6hax31w).
 
+## Leyenda
+
+* 🧪 Experimental: Esta propiedad es experimental y la definición que escribo en este repo puede cambiar en el futuro.
+* 🤷‍♂️ No he encontrado información: No he encontrado información sobre esta propiedad ni en documentos oficiales ni en "tutoriales". Si alguien encuentra o sabe del tema que nos avise por discord o aquí en Github.
+
 ## Diseño
 ### CSS Grid
 Nos permite hacer rejillas dentro de una etiqueta 
@@ -310,19 +315,64 @@ Son propiedades para una tipografía editable que se añaden dentro del @media.
 
 En vez de enlazar 20 tipografías podemos definir múltiples valores para una misma tipografía y ahorrar carga.
 
-
 * [Documentación W3C](https://drafts.csswg.org/css-fonts-4/#font-variation-settings-def)
 * [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
 * [Enlace a CanIUse](https://caniuse.com/?search=variable-font)
 
 ## Accesibility
+
 ### prefers-reduced-motion
+
+Es un breakpoint de dispositivo que nos permite aplicar propiedades (normalmente animation) cuando el usuario ha seleccionado la opción de "Reducir movimiento".
+
+* [Documentación W3C](https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
+* [Enlace a CanIUse](https://caniuse.com/?search=prefers-reduced)
+
 ### prefers-color-scheme
+
+Es un breakpoint de dispositivo que nos permite configurar propiedades CSS dependiendo de la configuración de color del sistema operativo, es decir del "Dark Mode".
+
+* [Documentación W3C](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+* [Enlace a CanIUse](https://caniuse.com/?search=prefers-color)
+
 ### prefers-reduced-data
+
+Es un breakpoint de dispositivo que nos permite definir si algo en CSS (tipografía, ...) se carga o no dependiendo de si el usuario ha definido.
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data)
+* [Enlace a CanIUse](https://caniuse.com/?search=prefers-reduced-data)
+
 ### color-contrast()
-### color-scheme
-### tabindex 
+
+Nos permite de una lista de colores en CSS determinar el color que mejor con más contraste.
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-contrast())
+* [Enlace a CanIUse](https://caniuse.com/?search=color-contrast())
+
+### color-scheme 🧪
+
+Se debería de usar en conjunto con `prefers-color-scheme` y nos permite que el navegador configure los colores que nosotros no podemos modificar de ciertos elementos como formulario o barras de scroll cuando el usuario esté usando el lightmode o darkmode.
+
+* [Documentación W3C](https://drafts.csswg.org/css-color-adjust/#color-scheme-prop)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme)
+* [Enlace a CanIUse](https://caniuse.com/?search=color-scheme)
+
+
+### tabindex 🤷‍♂️
+
+No he encontrado información sobre el tema, lo más relevante sería el `tabindex` de HTML pero es un atributo de HTML que funciona desde IE 7.
+
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/tabindex)
+
+
 ### ARIA HTML Attributes (role, aria-label, etc.)
+
+Atributos usados para la accesibilidad de una web y son atributos que se colocan en los elementos HTML.
+
+* [Mozilla Developer](https://developer.mozilla.org/es/docs/Web/Accessibility/ARIA)
+* [Enlace a CanIUse](https://caniuse.com/?search=role)
 
 
 

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.etiqueta {
+  width: 10em;
+  min-height: 5em;
+  background-color: red;
+  margin: 10em auto;
+  -webkit-animation: escalar 1s ease infinite both;
+          animation: escalar 1s ease infinite both;
+}
+
+@media (prefers-reduced-motion) {
+  .etiqueta {
+    -webkit-animation-name: escalarPoco;
+            animation-name: escalarPoco;
+  }
+}
+@-webkit-keyframes escalar {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes escalar {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scaleX(2);
+            transform: scaleX(2);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@-webkit-keyframes escalarPoco {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+@keyframes escalarPoco {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(2);
+            transform: scaleY(2);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}

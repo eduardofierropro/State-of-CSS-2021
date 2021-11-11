@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+// Estilos para los elementos (no es esencial)
+
+.etiqueta{
+    width:10em;
+    min-height:5em;
+    background-color: red;
+    
+    margin: 10em auto;
+}
+
+@media (prefers-color-scheme:dark){
+    .etiqueta{
+        background : green;
+    }
+}
