@@ -380,7 +380,6 @@ Atributos usados para la accesibilidad de una web y son atributos que se colocan
 * [Enlace a CanIUse](https://caniuse.com/?search=role)
 
 
-
 ## Otras características
 ### Variables (Propiedades Custom)
 
